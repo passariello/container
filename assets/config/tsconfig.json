@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": false,
+    "noImplicitThis": false,
+    "noUnusedLocals": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "composite": false,
+    "incremental": false,
+    "tsBuildInfoFile": null,
+    "checkJs": true,
+    "declaration": false,
+    "inlineSourceMap": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "jsx": "react",
+    "target": "es2024",
+    "module": "commonjs",
+    "outDir": "./dist/",
+    "moduleDetection": "force",
+    // "moduleResolution": "node",
+    "lib": ["es2024", "DOM.Iterable", "dom"],
+    "rootDirs": ["./"],
+    "paths": {
+      "/*": ["./*"]
+    },
+    "types": ["node"]
+  },
+  "include": ["./**/*.ts*"],
+  "typeRoots": [
+    "node_modules/@types",
+    "node_modules/dphelper.types",
+    "./types/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "private",
+    "archive",
+    "*backup",
+    "dist",
+    "*old*",
+    "*OLD*"
+  ]
+}
